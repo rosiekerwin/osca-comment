@@ -33,14 +33,18 @@
   </ul>
 </div>
 
+<div id="content">
+<h2 class="green">Announcements</h2>
+<div id="mini">
+
 		<div ng-controller="MainController">
 
 		<singlelist mylist="todo"></singlelist>
 			<input ng-model="addToDo">
 			<button ng-click="addItem(todo.list, addToDo)">Update</button>
-
-		</div>
-
+	<br>
+</div>
+</div>
 	<!-- Modules -->
 	<script type="text/javascript" src="js/app.js"></script>
 
@@ -50,6 +54,7 @@
 	<!-- Directives -->
 	<script src="js/directives/singlelist.js"></script>
 
+<div id="mini">
 	    <h2 class="red">About OSCA</h2>
     <img height = "100"width="100"class="right" src="oscalogo.png" alt="oscalogo">
     <p>OSCA is a student-run non-profit corporation that feeds approximately ¼ of Oberlin’s student body. OSCA provides at-cost housing and dining to members, and works to provide inexpensive, healthy, tasty, and environmentally-wise meals. The organization aims to buy food based on principles of accessibility, sustainability, and supporting fair labor practices. OSCA operates through modified consensus, and OSCA is one of the largest cooperatives in North America.</p>
@@ -71,9 +76,10 @@
 	<li>New Member Trainer: Emily Jacobson</li>
 	<li>Food Unpacker/Recycler: Carter Rasnic Olson, Emma Kazal</li>
 	<li>AccessCo: Margo Roberts, Jesse Noily</li>
-      </ul>
+      </ul></div>
     </p>
 </div>
+
 
 </body>
 </html>
