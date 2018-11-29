@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', '$http', function($scope, $http) { 
   	$scope.todo = {
-  	    title="",
+  	    title:"",
   	    list: ["11/2/2018 - Dinner is on! Thanks, Sally, for saving the meal!", "11/7/2018 - We are serving romaine. Eat with caution.", "11/15/2018 - The water has been cleared for drinking!"]
   	}
 
