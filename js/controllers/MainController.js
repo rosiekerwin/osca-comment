@@ -1,12 +1,7 @@
 app.controller('MainController', ['$scope', '$http', function($scope, $http) { 
   	$scope.todo = {
-  		title: "Things I Need to Do",
-  		list: ["Clean my room", "Go to the store", "Study Cracking the Coding Interview"]
-  	}
-
-  	$scope.books = {
-  		title: "Books I Need to Buy",
-  		list: []
+  		title: "Announcements",
+  	    list: ["11/2/2018 - Dinner is on! Thanks, Sally, for saving the meal!", "11/7/2018 - We are serving romaine. Eat with caution.", "11/15/2018 - The water has been cleared for drinking!"]
   	}
 
     function hasOnlyNumbers(item) {
